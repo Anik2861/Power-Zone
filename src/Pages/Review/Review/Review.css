@@ -10,7 +10,9 @@
     margin-top: 1rem;
 }
 
-
+/*-----------------------------------
+ Services Responsive for Mobile device 
+ ------------------------------------*/
 
 @media only screen and (max-width: 600px) {
 
@@ -19,5 +21,15 @@
         grid-template-columns: 1fr ;
     }
     
+}
+/*-----------------------------------
+ Services Responsive for tab device 
+ ------------------------------------*/
+@media only screen and (min-width: 576px) and (max-width: 960px) {
+    .review-container{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     
+   }
 }
 

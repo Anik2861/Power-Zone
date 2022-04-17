@@ -1,0 +1,28 @@
+.icon {
+    text-align: center;
+}
+
+.schedule-table {
+    /* border: 1px solid gray; */
+}
+
+.tbody-container tr {
+    border: 1px solid gray;
+
+}
+
+.schedule-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.schedule-title {
+    text-align: center;
+    font-weight: 800;
+}
+
+.schedule-title span {
+    color: #ed563b;
+}

@@ -1,11 +1,21 @@
 .mentor-container img {
-    height: 27rem;
-    row-gap: 2rem;
+    height: 10rem;
+    width: 10rem;
+    
+    
+}
+.mentor-container{
+    /* height: 27rem;
+     */
+     height: auto;
+    width: auto;
+    border: 1px solid red;
 }
 .title-container{
     text-align: center;
     margin-top: 2rem;
     border: none;
+    text-align: center;
     
 }
 .mentor-title {

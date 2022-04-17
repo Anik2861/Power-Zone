@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='footer-description'>
                 <div>
                     <h3 className='footer-header'>About Power Zone</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, eos.</p>
+                    <p>Power Zone is dedicated to making your dreams of a successful fitness career come true in the most efficient and timely way..</p>
                 </div>
                 <div>
                     <h3 className='footer-header'>Top Features</h3>

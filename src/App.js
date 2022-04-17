@@ -10,6 +10,8 @@ import Register from './Pages/Form/Register/Register';
 import Abouth from './Pages/Abouth/Abouth';
 import Blogs from './Pages/Blogs/Blogs';
 import Review from './Pages/Review/Review/Review';
+import Login from './Pages/Form/Login/Login';
+import Schedule from './Pages/Home/Schedule/Schedule';
 
 
 
@@ -24,7 +26,9 @@ function App() {
         <Route path='/about' element={<Abouth></Abouth>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/blog' element={<Blogs></Blogs>}></Route>
+        <Route path='/schedule' element={<Schedule></Schedule>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>

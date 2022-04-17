@@ -1,0 +1,13 @@
+.login-from{
+    width: 50%;
+    
+    margin: 0 auto;
+}
+.login-container{
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+.login-title{
+    margin-top: 2rem ;
+    text-align: center;
+}

@@ -18,7 +18,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
     margin-top: 8px;
-
+    
 }
 
 
@@ -32,3 +32,15 @@
       
     }
   }
+
+/*-----------------------------------
+ Services Responsive for tab device 
+ ------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 966px) {
+     .services-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+    }
+}
