@@ -3,7 +3,7 @@ import './Reviews.css'
 const Reviews = ({studentReview}) => {
     console.log(studentReview)
     return (
-        <div className='student-info'>
+        <div className='student-info shadow-lg'>
             <img src={studentReview.personImg} alt="" />
             <div>
                 <h3>{studentReview.PersonName}</h3>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
 import './Mentor.css'
-import mentor1 from '../../../images/Mentor/mentor1.jpg'
-import mentor2 from '../../../images/Mentor/mentor3.jpg'
-import mentor3 from '../../../images/Mentor/mentor4.jpg'
+import mentor1 from '../../../images/Mentor/mentor6.png'
+import mentor2 from '../../../images/Mentor/mentor8.jpg'
+import mentor3 from '../../../images/Mentor/mentor5.png'
 import logo from '../../../images/tabs-first-icon.png'
 const Mentor = () => {
     return (
@@ -16,7 +16,7 @@ const Mentor = () => {
             <CardGroup className='mentor-container shadow-lg gap-3'>
             
             <Card>
-                <Card.Img variant="top" src={mentor1} />
+                <Card.Img variant="top" src={mentor3} />
                 <Card.Body>
                     <Card.Title>Rich Gaspari</Card.Title>
                     <Card.Text>
@@ -26,7 +26,7 @@ const Mentor = () => {
                 
             </Card>
             <Card>
-                <Card.Img variant="top" src={mentor3} />
+                <Card.Img variant="top" src={mentor2} />
                 <Card.Body>
                     <Card.Title>Charlotte</Card.Title>
                     <Card.Text>
@@ -36,7 +36,7 @@ const Mentor = () => {
                 
             </Card>
             <Card>
-                <Card.Img variant="top" src={mentor2} />
+                <Card.Img variant="top" src={mentor1} />
                 <Card.Body>
                     <Card.Title>Ronnie Coleman</Card.Title>
                     <Card.Text>

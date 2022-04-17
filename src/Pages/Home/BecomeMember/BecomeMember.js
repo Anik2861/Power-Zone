@@ -11,7 +11,7 @@ const BecomeMember = () => {
                 }}></div>
 
                 <h1 >DON'T <span className='bcm-style'>THINK</span > BEGAIN <span className='bcm-style'>TODAY</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus voluptatibus repellendus possimus nostrum eos dignissimos, suscipit rem magnam corrupti officiis sunt laudantium? Fugit quasi, sapiente expedita error quod suscipit!</p>
+                <p>It might seem counterproductive, but a workout can actually boost your mood and energy. Exercising can help you feel more motivated and enthusiastic, Everyday Health notes. If you're not feeling your best, you'll likely find yourself in better spirits after a productive gym session.</p>
             </div>
         </div>
 

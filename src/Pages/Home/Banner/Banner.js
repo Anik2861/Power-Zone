@@ -11,7 +11,7 @@ const Banner = () => {
             <div className=' video-overlay'>
                <div className='description'>
                <h1 className='title'>Power Zone</h1>
-                <p className='container'>Join the Mutants family and enjoy exclusive and state of the art training amenities along with exclusive membership privileges at the best gym in Patna. Train with our personal trainers and build your dream physique in less than a few months with a dedicated support staff and top notch fitness equipments.</p>
+                <p className='container'>Being physically and mentally fit is necessary for an individual to live a happy, long life. Typically, exercise is one of the best ways to keep a person healthy. Empower yourself to make the  change you need to make</p>
                </div>
             </div>
         </div>
