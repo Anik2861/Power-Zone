@@ -1,0 +1,28 @@
+.mentor-container img {
+    height: 27rem;
+    row-gap: 2rem;
+}
+.title-container{
+    text-align: center;
+    margin-top: 2rem;
+    border: none;
+    
+}
+.mentor-title {
+    color: #ed563b;
+}
+
+.title-container img {
+    margin-left: 1%;
+}
+
+/*-----------------------------------
+ Services Responsive for mobile device 
+ ------------------------------------*/
+ @media only screen and (max-width: 576px) {
+    .mentor-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+    }
+  }
