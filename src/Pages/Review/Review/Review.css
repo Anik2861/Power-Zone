@@ -1,0 +1,22 @@
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 1%;
+}
+.review-title{
+    color:  #ed563b;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .review-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    
+}
+
