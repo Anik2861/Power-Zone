@@ -23,3 +23,22 @@
     text-align: center;
      
 }
+
+@media only screen and (max-width: 570px) {
+
+    .footer-header{
+        font-size: small;
+    }
+    .footer-header p{
+        font-size: small;
+    }
+    .details{
+        font-size: xx-small;
+    }
+    .copyright{
+        font-size: xx-small;
+    }
+    .footer-header{
+        font-size: xx-small;
+    }
+}

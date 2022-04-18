@@ -26,3 +26,17 @@
 .schedule-title span {
     color: #ed563b;
 }
+
+
+@media only screen and (max-width: 570px) {
+    .schedule-container{
+        width: 100%;
+    }
+    .schedule-container thead th {
+        font-size: xx-small;
+    }
+
+    .schedule-details {
+        font-size: xx-small;
+    }
+}

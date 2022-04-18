@@ -18,7 +18,7 @@ const Mentor = () => {
                     <Card className='shadow-lg mentor-container '>
                         <Card.Img  variant="top" src={mentor3} />
                         <Card.Body>
-                            <Card.Title>Rich Gaspari</Card.Title>
+                            <Card.Title className='mentor-name'>Rich Gaspari</Card.Title>
                             <Card.Text>
                                 He’s authored four books on body transformation and runs a team of 250 elite trainers. Nick recognises that to be a truly great personal trainer.
                             </Card.Text>
@@ -28,7 +28,7 @@ const Mentor = () => {
                     <Card className='shadow-lg mentor-container'>
                         <Card.Img variant="top" src={mentor2} />
                         <Card.Body >
-                            <Card.Title>Charlotte</Card.Title>
+                            <Card.Title className='mentor-name'>Charlotte</Card.Title>
                             <Card.Text>
                                 Exercise professional Charlotte has published a number of books which have become Sunday Times bestsellers.
                             </Card.Text>
@@ -38,7 +38,7 @@ const Mentor = () => {
                     <Card className='shadow-lg mentor-container'>
                         <Card.Img variant="top" src={mentor1} />
                         <Card.Body >
-                            <Card.Title>Ronnie Coleman</Card.Title>
+                            <Card.Title className='mentor-name'>Ronnie Coleman</Card.Title>
                             <Card.Text>
                                 With a Masters degree in strength and conditioning from Oxford University, Ronnie Coleman left university and went into a bodybuilding career.
                             </Card.Text>

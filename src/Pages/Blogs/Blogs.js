@@ -1,10 +1,11 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
 import './Blogs.css'
+
 const Blogs = () => {
     return (
-        <div className='mx-auto w-75 m-5'>
-            <Accordion defaultActiveKey="0">
+        <div className='mx-auto  m-5 blogs-container w-75'>
+            <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Difference between Authentication and Authorization?</Accordion.Header>
                     <Accordion.Body>

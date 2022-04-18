@@ -33,11 +33,12 @@ const Social = () => {
                 <div className='line'></div>
             </div>
 
-            <div>
-                <button onClick={() => signInWithGoogle()} className='btn btn-info'>Continue With Google</button><br />
-                <button className='btn btn-dark mt-2' onClick={() => signInWithGithub()}>Continue With Github</button>
-            </div>
+            <div >
             {errorElement}
+                <button onClick={() => signInWithGoogle()} className='third-party-google-btn' >Continue With Google</button><br />
+                <button className='third-party-github-btn' onClick={() => signInWithGithub()}>Continue With Github</button>
+            </div>
+           
         </div>
 
         

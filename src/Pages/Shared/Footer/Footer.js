@@ -11,26 +11,32 @@ const Footer = () => {
             <div className='footer-description'>
                 <div>
                     <h3 className='footer-header'>About Power Zone</h3>
-                    <p>Power Zone is dedicated to making your dreams of a successful fitness career come true in the most efficient and timely way..</p>
+                    <div className='details'>
+                        <p>Power Zone is dedicated to making your dreams of a successful fitness career come true in the most efficient and timely way..</p>
+                    </div>
                 </div>
                 <div>
                     <h3 className='footer-header'>Top Features</h3>
-                    <p>Online Coaching</p>
-                    <p>Consulting</p>
-                    <p>Born Fitness +</p>
-                    <p>Fit father Guid</p>
-                    <p>Fat loss Academy</p>
+                    <div className='details'>
+                        <p>Online Coaching</p>
+                        <p>Consulting</p>
+                        <p>Born Fitness +</p>
+                        <p>Fit father Guid</p>
+                        <p>Fat loss Academy</p>
+                    </div>
 
                 </div>
                 <div>
                     <h3 className='footer-header'>Contact Us</h3>
-                    <p>USA, California 20, First Avenue, California
-                    </p>
-                    <p>Tel: +7 998 71 150 ## ##
-                    </p>
-                    <p>Fax: +7 998 71 150 ## ##
-                    </p>
-                    <p>anikh499@gmail.com</p>
+                    <div className='details'>
+                        <p>USA, California 20, First Avenue, California
+                        </p>
+                        <p>Tel: +7 998 71 150 ## ##
+                        </p>
+                        <p>Fax: +7 998 71 150 ## ##
+                        </p>
+                        <p>anikh499@gmail.com</p>
+                    </div>
                     <FontAwesomeIcon icon={faCoffee} />
                 </div>
             </div>

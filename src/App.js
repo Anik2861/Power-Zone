@@ -12,6 +12,9 @@ import Blogs from './Pages/Blogs/Blogs';
 import Review from './Pages/Review/Review/Review';
 import Login from './Pages/Form/Login/Login';
 import Schedule from './Pages/Home/Schedule/Schedule';
+import Admit from './Pages/Admit/Admit';
+import AdmitProcess from './Pages/Admit/AdmitProcess/AdmitProcess';
+import RequireAuth from './Pages/Other/RequireAuth/RequireAuth';
 
 
 
@@ -29,9 +32,14 @@ function App() {
         <Route path='/schedule' element={<Schedule></Schedule>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/admit' element={<Admit></Admit>}></Route>
+        <Route path='/admitProcess' element={<RequireAuth>
+          <AdmitProcess></AdmitProcess>
+        </RequireAuth>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
+      
       <Footer></Footer>
 
     </div>

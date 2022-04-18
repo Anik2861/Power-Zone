@@ -44,8 +44,8 @@ const Header = () => {
                                 Sign Out
                             </button>
                         ) : (
-                            <Nav.Link as={Link} to="/login">
-                                Login
+                            <Nav.Link as={Link} to="/register">
+                                Sign In
                             </Nav.Link>
                         )}
                     </Nav>

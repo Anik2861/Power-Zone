@@ -2,11 +2,12 @@
     height: 220px;
     width: 300px;
 }
-.anik{
+.admit-btn{
     width: 100%;
     color: #ed563b;
     background-color:rgba(21, 28, 36, 0.8);
     font-weight: 700;
+    
 }
 
 @media only screen and (max-width: 576px) {

@@ -1,15 +1,10 @@
 .mentor-container img {
-    height: 10rem;
-    width: 10rem;
-    
-    
+    height: 15rem;
+    width: 14.5rem;  
 }
 .mentor-container{
-    /* height: 27rem;
-     */
-     height: auto;
-    width: auto;
-    border: 1px solid red;
+     width: 14.6rem;
+     margin-top: 1rem;
 }
 .title-container{
     text-align: center;
@@ -21,7 +16,9 @@
 .mentor-title {
     color: #ed563b;
 }
-
+.mentor-name{
+    color: #ed563b;
+}
 .title-container img {
     margin-left: 1%;
 }
