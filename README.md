@@ -3,14 +3,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-# Project Name:- Health Coach.
+# Project Name:- Power Zone.
+#### Shohidul Jaman Anik
 ## [Netlify live server link]().
 
 ## Project Description:-
 * This is basically A Gym website
-* First there is the homepage where the header, banner, services, Mentor and footer.
+* First there is the homepage where the header, banner, services, Mentor , Begin Today and footer.
 * Questions have been answered using accordion in blogs.
-* There have One more part which is Student Reviews . 
+* There have One more part which is Student Reviews and Time Schedule . 
 * The basic idea of ​​user login and registration can be found from this project.
 ## Tecnology use:- Firebase, react router, react router hooks, react bootstrap , react toastify, plain css etc.
 Power Zone
