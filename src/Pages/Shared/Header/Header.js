@@ -22,7 +22,7 @@ const Header = () => {
 
     
     return (
-        <Navbar className='navStyle' collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
+        <Navbar className='navStyle' collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top' >
             <Container>
                 <Navbar.Brand as={Link} to='/' href="#home">
                     <img style={{ height: '3rem', width: '3rem', color: 'white' }} src={logo} alt="" />  <span className='header-title'>Power Zone</span></Navbar.Brand>

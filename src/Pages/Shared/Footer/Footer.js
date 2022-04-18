@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee ,} from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     const today = new Date()
@@ -24,6 +24,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <h3 className='footer-header'>Contact Us</h3>
+                    <p>USA, California 20, First Avenue, California
+                    </p>
+                    <p>Tel: +7 998 71 150 ## ##
+                    </p>
+                    <p>Fax: +7 998 71 150 ## ##
+                    </p>
+                    <p>anikh499@gmail.com</p>
                     <FontAwesomeIcon icon={faCoffee} />
                 </div>
             </div>
