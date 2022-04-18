@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Project Name:- Power Zone.
 #### Shohidul Jaman Anik
-## [Netlify live server link]().
+## [Netlify live server link](https://power-zone-d77bd.web.app/).
 
 ## Project Description:-
 * This is basically A Gym website
